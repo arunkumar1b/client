@@ -7,7 +7,7 @@ import CreateUser from "./components/CreateUser";
 import OnlineUsers from "./components/OnlineUsers";
 import MessagesControl from "./components/MessagesControl";
 
-const socket = io(`http://192.168.0.110:3001`);
+const socket = io(`https://chat-serversss.herokuapp.com/`);
 
 function App() {
   const [step, setStep] = useState(0);
